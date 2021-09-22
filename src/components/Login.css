@@ -1,0 +1,13 @@
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgot-password {
+    color: #0000ffc9;
+}
+
+footer {
+    margin-top: 50px;
+}

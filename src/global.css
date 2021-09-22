@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  background-color: #61acb3;
+  border-radius: 15px;
+  color: white;
+  font-size: medium;
+  padding: 8px;
+  border: none;
+  margin: 40px;
+}
+
+.form-field-input {
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 16px;
+  margin-bottom: 12px;
+  padding: 10px;
+  width: 30vw;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+.account-details-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+fieldset {
+  max-width: 30vw;
+}
+
+button {
+  cursor: pointer;
+}

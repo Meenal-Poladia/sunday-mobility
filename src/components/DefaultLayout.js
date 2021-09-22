@@ -8,13 +8,12 @@ import "./DefaultLayout.css";
 const DefaultLayout = () => {
     return(
         <section className="layout">
-            <div className="division">
+            <div className="image-container">
                 <img
                     src="sideImage.jpg"
-                    alt="Default"
-                    width="300px"/>
+                    alt="Default"/>
             </div>
-            <Router className="division">
+            <Router>
                 <Switch>
                     <Route exact path ="/">
                         <Login/>
@@ -22,7 +21,7 @@ const DefaultLayout = () => {
                     <Route path="/login">
                         <Login/>
                     </Route>
-                    <Route path="/Register">
+                    <Route path="/register">
                         <Register/>
                     </Route>
                     <Route path="/user-details">
